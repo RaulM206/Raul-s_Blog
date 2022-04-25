@@ -15,12 +15,15 @@
 }
 
 .navigationBtn{
+    display: inline-block;
     text-decoration: none;
-    transition: background-color .5s;
+    transition: background-color 1s;
+    width: 19%;
     color: white;
-    text-size-adjust: 2rem;
+    height: 60px;
+    
 
 }
-.navButton:hover{
+.navigationBtn:hover{
     background-color: #0A3A40;
 }
