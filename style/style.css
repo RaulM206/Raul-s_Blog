@@ -10,6 +10,7 @@ body{
 }
 #navigation{
     border: 1px solid black;
+    font-family: Trebuchet MS;
     width: 100%;
     background-color: #0A3A40;
     height: 60px;
@@ -22,7 +23,7 @@ body{
     display: inline-block;
     text-decoration: none;
     transition: background-color .3s;
-    width: 24.756%;
+    width: 24.7%;
     color: white;
     height: 60px;
     padding: 15px;
@@ -31,4 +32,13 @@ body{
 }
 .navigationBtn:hover{
     background-color: #042326;
+}
+
+h1{
+    font-family: Trebuchet MS;
+    text-align: center;
+    font-size: 80px;
+    position: relative;
+    bottom: -100px;
+    color: white;
 }
