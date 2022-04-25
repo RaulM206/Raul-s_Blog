@@ -19,11 +19,10 @@ body{
 }
 
 .navigationBtn{
-    position: static;
     display: inline-block;
     text-decoration: none;
     transition: background-color .3s;
-    width: 19%;
+    width: 24.756%;
     color: white;
     height: 60px;
     padding: 15px;
