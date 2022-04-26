@@ -6,7 +6,16 @@
 }
 
 body{
-    background-color: #1D7373;
+    background-color: #0F5959;
+}
+
+#heroImage{
+    background-image: url("https://cdn.britannica.com/22/94422-050-29AC90D6/Seattle-Space-Needle.jpg");
+    height: 900px;
+    width: 100%;
+    size: 100%;
+    background-size: cover;
+    border: 1px solid black;
 }
 #navigation{
     border: 1px solid black;
@@ -34,11 +43,14 @@ body{
     background-color: #042326;
 }
 
-h1{
+.hero-image-text{
     font-family: Trebuchet MS;
     text-align: center;
     font-size: 80px;
     position: relative;
-    bottom: -100px;
+    padding: 100px;
     color: white;
 }
+
+
+
