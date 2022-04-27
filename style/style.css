@@ -6,16 +6,17 @@
 }
 
 body{
-    background-color: #0F5959;
+background-color: #0F5959;
+   
 }
 
-#heroImage{
+#background{
     background-image: url("https://cdn.britannica.com/22/94422-050-29AC90D6/Seattle-Space-Needle.jpg");
-    height: 900px;
+    height: 60rem;
     width: 100%;
-    size: 100%;
     background-size: cover;
     border: 1px solid black;
+    opacity: 0.6;
 }
 #navigation{
     border: 1px solid black;
@@ -24,7 +25,7 @@ body{
     background-color: #0A3A40;
     height: 60px;
     text-align: center;
-    font-size: 25px;
+    font-size: 1.5rem;
     font-weight: bold;
 }
 
@@ -32,7 +33,7 @@ body{
     display: inline-block;
     text-decoration: none;
     transition: background-color .3s;
-    width: 24.7%;
+    width: 20%;
     color: white;
     height: 60px;
     padding: 15px;
@@ -43,14 +44,25 @@ body{
     background-color: #042326;
 }
 
-.hero-image-text{
+.background-text{
+    margin-top: -58rem;
     font-family: Trebuchet MS;
     text-align: center;
-    font-size: 80px;
+    font-size: 4.5rem;
     position: relative;
     padding: 100px;
     color: white;
+    font-weight: bold;
 }
 
+#intro{
+    margin-top: -10rem;
+    font-family: Trebuchet MS;
+    text-align: center;
+    position: relative;
+    padding: 100px;
+    color: white;
+    font-weight: bold;
 
+}
 
