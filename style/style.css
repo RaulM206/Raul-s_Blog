@@ -58,9 +58,9 @@ background-blend-mode: soft-light;
     position: relative;
     display: grid;
     border-radius: 50rem;
-    margin: 2rem;
+    margin: 6rem;
     margin-top: 3rem;
-    padding: 4rem;
+    padding: 5rem;
     text-align: left;
     font-size: 1.5rem;
     font-family: Trebuchet MS;
@@ -91,9 +91,19 @@ background-blend-mode: soft-light;
     top: 3rem;
     font-family: Trebuchet MS;
     font-weight: bold;
-    text-align: center;
+    text-align: left;
     left: 22rem;
     width:75%
+}
+.react-link{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    bottom: -3rem;
+}
+.react-link:hover{
+    background-color: #0A3A40;
 }
 
 
