@@ -12,6 +12,7 @@ background-repeat: no-repeat;
 background-color: #0F5959;
 height: 70rem;
 background-attachment: fixed;
+background-blend-mode: soft-light;
 }
 
 #navigation{
@@ -58,13 +59,14 @@ background-attachment: fixed;
     display: grid;
     border-radius: 50rem;
     margin: 2rem;
-    margin-top: 1rem;
-    padding: 5rem;
+    margin-top: 3rem;
+    padding: 4rem;
     text-align: left;
     font-size: 1.5rem;
     font-family: Trebuchet MS;
     border: 1px solid black;
     background-color: #0F5959;
+    height: 17rem;
 }
 
 .blog-title{
@@ -84,13 +86,14 @@ background-attachment: fixed;
 }
 
 .blog-text{
-    position: fixed;
+    position: absolute;
     display: grid;
+    top: 3rem;
     font-family: Trebuchet MS;
     font-weight: bold;
-    border: 1px solid black;
     text-align: center;
-    left: 25rem;
+    left: 22rem;
+    width:75%
 }
 
 
