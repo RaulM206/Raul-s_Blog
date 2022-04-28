@@ -6,23 +6,16 @@
 }
 
 body{
+background-size: cover;
 background-color: #0F5959;
-   
+background-image: url("../images/Space-Needle.jpeg.webp");
 }
 
-#background{
-    background-image: url("https://cdn.britannica.com/22/94422-050-29AC90D6/Seattle-Space-Needle.jpg");
-    height: 60rem;
-    width: 100%;
-    background-size: cover;
-    border: 1px solid black;
-    opacity: 0.6;
-}
 #navigation{
     border: 1px solid black;
     font-family: Trebuchet MS;
     width: 100%;
-    background-color: #0A3A40;
+   background-color: #0A3A40;
     height: 60px;
     text-align: center;
     font-size: 1.5rem;
@@ -45,12 +38,11 @@ background-color: #0F5959;
 }
 
 .background-text{
-    margin-top: -58rem;
     font-family: Trebuchet MS;
     text-align: center;
     font-size: 4.5rem;
     position: relative;
-    padding: 100px;
+    padding: 50px;
     color: white;
     font-weight: bold;
 }
@@ -65,4 +57,12 @@ background-color: #0F5959;
     font-weight: bold;
 
 }
+#blog-posts{
+    display: grid;
+    border: 1px solid black;
+    text-align: center;
+    margin-left: 20rem;
+    margin-right: 20rem;
+}
+
 
