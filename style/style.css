@@ -10,6 +10,7 @@ background-image: url("../images/Space-Needle.jpeg.webp");
 background-size: cover;
 background-repeat: no-repeat;
 background-color: #0F5959;
+height: 70rem;
 }
 
 #navigation{
@@ -62,15 +63,15 @@ background-color: #0F5959;
     display: grid;
     border: 1px solid black;
     text-align: center;
-    margin-left: 20rem;
-    margin-right: 20rem;
+    margin:5rem;
+
+    padding: 8rem;
+    background-color: #0A3A40;
 }
 
-.text{
+.header2text{
     text-align: center;
     color: white;
-    padding: -100px;
-
 }
 
 
