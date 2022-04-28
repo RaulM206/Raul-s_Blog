@@ -75,10 +75,10 @@ background-blend-mode: soft-light;
     color: white;
     font-family: Trebuchet MS;
     font-weight: bold;
-    font-size: 1.7rem;
-    margin-top: -3rem;
+    font-size: 1.5rem;
+    margin-top: -4rem;
     border-radius: .7rem;
-    width: 13rem;
+    width: 15rem;
 }
 
 .blog-title:hover{
@@ -95,14 +95,14 @@ background-blend-mode: soft-light;
     left: 22rem;
     width:75%
 }
-.react-link{
+.link{
     position: absolute;
     color: white;
     text-decoration: none;
     text-align: center;
     bottom: -3rem;
 }
-.react-link:hover{
+.link:hover{
     background-color: #0A3A40;
 }
 
