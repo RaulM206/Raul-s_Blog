@@ -120,12 +120,12 @@ background-blend-mode: soft-light;
     font-family: Trebuchet MS;
     font-weight: bold;
     bottom: 8px;
+    border: 1px solid black;
 }
 
 .top:hover{
     background-color: #042326;
 }
-
 
 
 
