@@ -127,5 +127,80 @@ background-blend-mode: soft-light;
     background-color: #042326;
 }
 
+#aboutme-container{
+    border: 1px solid black;
+    margin: 0 auto;
+    margin-top: 40px;
+    width: 75%;
+    background-color: #0F5959;
+    border-radius: 25px;
+    height: 80%;
+}
+
+
+.aboutme-text p{
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    font-family: Trebuchet MS;
+    width: 30%;
+    right: 26%;
+    top: 25%;
+    }
+
+.aboutme-text a{
+    text-decoration: none;
+    text-align: left;
+    position: absolute;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    font-family: Trebuchet MS;
+    width: auto;
+    right: 48%;
+    border-radius: 25px;
+}
+
+.aboutme-text a:hover{
+    color:beige;
+    background-color: #042326;
+}
+.aboutme-text h2{
+    position: absolute;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+    font-family: Trebuchet MS;
+    text-align: center;
+    width: 30%;
+    right: 26%;
+    top: 16%;
+}
+
+
+.raulimage{
+    position: absolute;
+    max-width: 19.5%;
+    height: auto; 
+    bottom: 10%;
+    left: 11.4%;
+    margin: 5%;
+    margin-top: 3%;
+    width: 25%;
+    border-radius: 25px;
+}
+
+.raulrainier{
+    position: absolute;
+    border-radius: 25px;
+    height: 30%;
+    bottom: 20%;
+    left: 16.3%;
+    top: 15%;
+
+}
 
 
