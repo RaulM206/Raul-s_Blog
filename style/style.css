@@ -134,7 +134,7 @@ background-blend-mode: soft-light;
     width: 75%;
     background-color: #0F5959;
     border-radius: 25px;
-    height: 80%;
+    height: 73%;
 }
 
 
@@ -152,15 +152,15 @@ background-blend-mode: soft-light;
     }
 
 .aboutme-text a{
+    position: absolute;
     text-decoration: none;
     text-align: left;
-    position: absolute;
     font-size: 150%;
     font-weight: bold;
     color: white;
     font-family: Trebuchet MS;
     width: auto;
-    right: 48%;
+    right: 46%;
     border-radius: 25px;
 }
 
