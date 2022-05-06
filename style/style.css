@@ -39,14 +39,21 @@ background-blend-mode: soft-light;
 }
 .navigationBtn:hover{
     background-color: #042326;
+ 
 }
 
+
 #container{
+    transition: 1s all ease;
+    position: relative;
     display: grid;
     grid-template-rows: repeat(6, auto);
     color: white;
     margin: 50px;
 }
+
+
+
 
 .header1{
     text-align: center;
@@ -55,6 +62,9 @@ background-blend-mode: soft-light;
 }
 
 .blog-post{
+    transform: translateY(10px);
+    opacity: .5;
+    transition: 1s all ease;
     position: relative;
     display: grid;
     border-radius: 50rem;
@@ -68,6 +78,13 @@ background-blend-mode: soft-light;
     background-color: #0F5959;
     height: 17rem;
 }
+
+.blog-post:hover{
+        transform: translateY(0px);
+        opacity: 1;
+    }
+    
+
 
 .blog-title{
     display: grid;
