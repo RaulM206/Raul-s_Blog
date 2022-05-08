@@ -63,8 +63,8 @@ background-blend-mode: soft-light;
 
 .blog-post{
     transform: translateY(10px);
-    opacity: .5;
-    transition: .5s all ease;
+    transition: .2s all ease;
+    
     position: relative;
     display: grid;
     border-radius: 50rem;
@@ -81,12 +81,13 @@ background-blend-mode: soft-light;
 
 .blog-post:hover{
         transform: translateY(0px);
-        opacity: 1;
+     
     }
     
 
 
 .blog-title{
+    text-align: center;
     display: grid;
     text-decoration: none;
     color: white;
@@ -208,6 +209,12 @@ background-blend-mode: soft-light;
     margin-top: 3%;
     width: 25%;
     border-radius: 25px;
+    transition: .1s all ease;
+}
+
+.raulimage:hover{
+    transform: translateY(-10px);
+    transition: .5s all ease;
 }
 
 .raulrainier{
@@ -217,7 +224,13 @@ background-blend-mode: soft-light;
     bottom: 20%;
     left: 16.3%;
     top: 15%;
+    transition: .1s all ease;
 
+}
+
+.raulrainier:hover{
+    transform: translateY(-10px);
+    transition: .5s all ease;
 }
 
 
