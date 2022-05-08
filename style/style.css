@@ -139,13 +139,17 @@ background-blend-mode: soft-light;
     font-family: Trebuchet MS;
     font-weight: bold;
     border: 1px solid black;
-    right: -47%;
+    right: -46%;
     top: -30px;
     padding: 20px;
+    transition: .5s all ease;
 }
 
 .top:hover{
     background-color: #042326;
+    padding: 25px;
+    transition: .5s all ease;
+    
 }
 
 #aboutme-container{
@@ -160,6 +164,7 @@ background-blend-mode: soft-light;
 
 
 .aboutme-text p{
+    overflow:hidden;
     text-decoration: none;
     text-align: left;
     position: absolute;
@@ -173,6 +178,7 @@ background-blend-mode: soft-light;
     }
 
 .aboutme-text a{
+    overflow:hidden;
     position: absolute;
     text-decoration: none;
     text-align: left;
