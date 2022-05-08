@@ -1,0 +1,33 @@
+body{
+    position: relative;
+}
+#react-container{
+    color: white;
+}
+
+.video{
+    position: relative;
+    left: 20px;
+    border-radius: 10px;
+}
+
+.react-header{
+    position: relative;
+    font-weight: bold;
+    right: -30%;
+    bottom: 450px;
+    width: 50%;
+}
+
+.react-text{
+    margin-top: 3%;
+    width: 135%;
+    font-family: Trebuchet MS;
+    font-weight: bold;
+    text-align: left;
+    overflow: hidden;
+    font-size: 100%;
+}
+.react-text p{
+    margin-bottom: 10px;
+}
