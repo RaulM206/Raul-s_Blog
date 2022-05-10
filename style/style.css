@@ -102,10 +102,12 @@ background-blend-mode: soft-light;
     margin-top: -4rem;
     border-radius: .7rem;
     width: 15rem;
+    transition: .5s all ease;
 }
 
 .blog-title:hover{
-    background-color: #0A3A40
+    transition: .5s all ease;
+    font-size: 1.8rem;
 }
 
 .blog-text{

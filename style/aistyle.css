@@ -1,0 +1,25 @@
+#ai-container{
+    font-family: Trebuchet MS;
+    color: white;
+    font-weight: bold;
+}
+.ai-image{
+    position: relative;
+    top: 60px;
+    left: 3%;
+}
+.ai-header{
+    position: relative;
+    width: 50%;
+    left: 35%;
+    bottom: 1090%;
+}
+.ai-text{
+    position: relative;
+    left: 35%;
+    bottom: 80%;
+    width: 65%;
+}
+.ai-text p{
+    margin-bottom: 10px;
+}

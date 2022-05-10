@@ -1,0 +1,20 @@
+#maui-container{
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    color: white;
+}
+
+.maui-image{
+    position: relative;
+    right: -40px;
+    top: 90px;
+    border-radius: 30px;
+}
+.maui-header{
+    position: relative;
+    right:-19%;
+}
+.maui-text{
+    position: relative;
+    width: 80%;
+}
