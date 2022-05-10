@@ -2,6 +2,27 @@
     color: white;
 }
 
+.blockchain-image{
+    position: relative;
+    left: 20px;
+    top: 12%;
+    border-radius: 30px;
+}
+
 .blockchain-header{
- 
+    position: relative;
+    right: -32%;
+    bottom: 340px;
+}
+.blockchain-text{
+    position: relative;
+    bottom: 310px;
+    right: -32%;
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    width: 68%;
+}
+
+.blockchain-text p {
+    margin-bottom: 20px;
 }
