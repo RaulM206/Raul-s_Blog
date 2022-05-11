@@ -13,8 +13,13 @@
 .maui-header{
     position: relative;
     right:-19%;
+    top: -200px;
 }
 .maui-text{
     position: relative;
     width: 80%;
+    top: 40px;
+}
+.maui-text p{
+    margin-bottom: 10px;
 }
