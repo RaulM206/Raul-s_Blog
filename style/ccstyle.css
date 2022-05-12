@@ -3,3 +3,21 @@
     font-family: Trebuchet MS;
     color:white;
 }
+
+.cc-image{
+    position: relative;
+    top:70px;
+}
+.cc-header{
+    position: relative;
+    left: 530px;
+    top: -280px;
+}
+.cc-text{
+    position: relative;
+    width: 68%;
+    top: 60px;
+}
+.cc-text p{
+    margin-bottom: 10px;
+}
