@@ -1,0 +1,24 @@
+#vr-container{
+    font-weight: bold;
+    font-family: Trebuchet MS;
+    color: white;
+}
+.vr-image{
+    position: relative;
+    left: 60px;
+    top: 10px;
+    border-radius:130px;
+}
+.vr-header{
+    position: relative;
+    left: 500px;
+    bottom: 450px;
+}
+.vr-text{
+    position: relative;
+    width: 68%;
+    bottom: -50px;
+}
+.vr-text p{
+    margin-bottom: 10px;
+}
